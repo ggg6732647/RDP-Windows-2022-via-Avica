@@ -12,8 +12,8 @@ jobs:
     steps:
       - name: Downloading & Installing Essentials
         run: |
-          Invoke-WebRequest -Uri "https://github.com/arifkembiri/RDP-Windows-2022-via-Avica/raw/refs/heads/main/Download-lite.bat" -OutFile "Downloads.bat"
-          cmd /c Downloads.bat
+          Invoke-WebRequest -Uri "https://github.com/arifkembiri/RDP-Windows-2022-via-Avica/raw/refs/heads/main/Downloads-lite.bat" -OutFile "Downloads.bat"
+          cmd /c Downloads-lite.bat
 
       - name: Show Website
         run: cmd /c show.bat
